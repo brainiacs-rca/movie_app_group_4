@@ -7,7 +7,7 @@ import jleague from '../assets/jl.jpeg'
 import morbius from '../assets/morbius.jpeg'
 import st from '../assets/st.jpeg'
 import nightmare from '../assets/nightmare.jpg'
-import '../styles.css'
+import './styles.css'
 class Action extends Component {
   render() {
     return (

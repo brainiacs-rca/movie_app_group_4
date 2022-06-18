@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /* background-color: black; */
+}
+.mainone{
+    background-color: black;
+}
+.comedy-container{
+    border: 1px solid black;
+    display: grid;
+    width: 100%;
+    white-space: nowrap;
+    grid-template-columns: auto auto auto auto auto;
+    text-align: center;
+    background-color: rgb(18, 18, 31);
+    padding: 5px;
+    overflow-x: auto;
+    grid-auto-flow: column;
+}
+.comedy-container::-webkit-scrollbar {
+    display: none;
+  }
+.comedy-title{
+    text-align: left;
+    color: rgb(240, 30, 30);
+    padding: 20px;
+}
+.comedy{
+    width: 22em;
+    margin: 10px;
+    padding-bottom: 5px;
+    background-color: black;
+    border-radius: 10px;
+}
+.comedy:hover{
+    opacity: 0.5;
+}
+.comedy img{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+.comedy-name{
+    display: block;
+    float: left;
+    padding: 10px;
+}
+.comedy-name h2{
+    color: white;
+}
+.comedy h2{
+    padding-left: 15px;
+    /* font-size: 1em; */
+}
+.comedy-name h5{
+    color: gray;
+    padding-top: 5px;
+}
+.comedy-rate{
+    float: right;
+    padding: 10px;
+}
+.comedy-rate h3{
+   padding-left: 5px;
+    color: gray;
+    padding-bottom: 5px;
+}
+.rate{
+     color: rgb(238, 194, 111); 
+    float: right;
+    display: flex;
+    padding-right: 10px;
+}
+.rate p{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.comedy-intro{
+    display: grid;
+    grid-template-columns: auto auto ;
+}
+.latest-news-container{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns:auto auto auto;
+    text-align: center;
+    background-color: rgb(18, 18, 31);
+    padding: 5px;
+}
+.news-title{
+    text-align: left;
+    color: red;
+    padding: 20px;
+}
+.nu{
+    background: linear-gradient(to right, rgb(187, 187, 96), pink, rgb(203, 62, 208), rgb(235, 69, 235), dodgerblue);
+    font-size: 32px;
+    height: 50px;
+    width: 90px;
+    float: right;
+    padding-top: 5px;
+    font-weight: bolder;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 10px;
+
+}
+.description{
+    display: grid;
+    background: none;
+    width: 100%;
+    text-align: start;
+    margin-top: 100px;
+    padding-left: 20px;
+    font-size: 12px;
+    color: whitesmoke;
+}
+.description h1{
+    color: white;
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+.description h3{
+    color: lightgray;
+    padding-bottom: 10px;
+}
+
+.description h3 span{
+    color: red;
+}
+
+.latest-news p{
+    justify-content: baseline;
+    background: none;
+    /* font-size: 10px; */
+}
+
+.latest-news{
+    height: 90%;
+    width: 90%;
+    margin: 10px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    background: url('../assets/luca.png');
+    background-repeat: no no-repeat;
+    background-size: 100%;
+    color: white;
+
+}
+
+.latest-news2{
+    height: 90%;
+    width: 90%;
+    margin: 10px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    background: url('../assets/brave.jpeg');
+    background-repeat: no no-repeat;
+    background-size: 100%;
+    color: white;
+
+}
+
+.latest-news3{
+    height: 90%;
+    width: 90%;
+    margin: 10px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    background: url('../assets/st.jpeg');
+    background-repeat: no no-repeat;
+    background-size: 100%;
+    color: white;
+
+}
+
+.latest-news4{
+    height: 90%;
+    width: 90%;
+    margin: 10px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    background: url('../assets/luca.png');
+    background-repeat: no no-repeat;
+    background-size: 100%;
+    color: white;
+
+}
+
+.latest-news5{
+    height: 90%;
+    width: 90%;
+    margin: 10px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    background: url('../assets/brave.jpeg');
+    background-repeat: no no-repeat;
+    background-size: 100%;
+    color: white;
+
+}
+
+.latest-news6{
+    height: 90%;
+    width: 90%;
+    margin: 10px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    background: url('../assets/st.jpeg');
+    background-repeat: no no-repeat;
+    background-size: 100%;
+    color: white;
+}
+.latest-news:hover, .latest-news2:hover, .latest-news3:hover, .latest-news4:hover, .latest-news5:hover, .latest-news6:hover{
+    opacity: 0.7;
+}

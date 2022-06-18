@@ -8,7 +8,7 @@ import morbius from '../assets/morbius.jpeg'
 import st from '../assets/st.jpeg'
 import nightmare from '../assets/nightmare.jpg'
 
-import '../styles.css'
+import './styles.css'
 
 export class Romance extends Component {
   render() {
