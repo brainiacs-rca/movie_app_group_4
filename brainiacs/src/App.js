@@ -1,10 +1,11 @@
-import Landpage from "./components/landpage";
-import Footer from "./components/Footer";
+
+import Landpage from './components/landpage'
+import Footer from './components/Footer'
 function App() {
   return (
     <div className="App">
-      <Landpage />
-      <Footer />
+<Landpage/>
+<Footer/>
     </div>
   );
 }
