@@ -1,18 +1,21 @@
+import LandingPageGeneral from "./pages/LandingPage";
+import Login from "./pages/Login";
+import Signup from "./pages/Signup";
+import { BrowserRouter, Routes, Route} from 'react-router-dom'
 
-import Landpage from './components/landpage'
-import Footer from './components/Footer'
-import Action from './components/Action';
-import Comedy from './components/Comedy';
-import Romance from './components/Romance';
 function App() {
   return (
+    <BrowserRouter>
     <div className="App">
-<Landpage/>
-      <Action/>
-      <Comedy/>
-      <Romance/>
-<Footer/>
+      <Routes>
+        <Route exact path='/' element={<LandingPageGeneral /> } />
+        <Route exact path='/login' element={<Login /> } />
+        <Route exact path='/signup' element={<Signup/> } />
+
+
+      </Routes>
     </div>
+    </BrowserRouter>
   );
 }
 
