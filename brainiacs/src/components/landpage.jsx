@@ -11,10 +11,10 @@
             <div><h1 className="font-bold text-red-600 text-xl" ><span className="text-black">Movie</span>Cinema</h1></div>
             <div>
               <ul className="flex justify-around ">
-                <Link to={'#'}><li className="pl-9 font-bold hover:border-b-4 border-red-500 pl-1 hover:"><a href="#"  className="text-black hover:text-black "> Tv Shows</a></li></Link >
-                <Link to={'#'}> <li className="pl-9 font-bold hover:border-b-4 border-red-600 pl-1 text-black"><a href="#"  className="text-black  hover:text-black"> WatchList</a></li></Link >
-                <Link to={'#'}><li className="pl-9 font-bold hover:border-b-4 border-red-600 pl-1 text-black"><a href="#"  className="text-black  hover:text-black">Series</a></li></Link >
-                <Link to={'/signup'}><li className="pl-9 font-bold hover:border-b-4 border-red-600 pl-1 text-black"><a href="#"  className="text-black  hover:text-black">Community</a></li></Link >
+                <Link to={'#'}><li className="font-bold hover:border-b-4 border-red-500 pl-1 hover:"><a href="#"  className="text-black hover:text-black "> Tv Shows</a></li></Link >
+                <Link to={'#'}> <li className=" font-bold hover:border-b-4 border-red-600 pl-1 text-black"><a href="#"  className="text-black  hover:text-black"> WatchList</a></li></Link >
+                <Link to={'#'}><li className=" font-bold hover:border-b-4 border-red-600 pl-1 text-black"><a href="#"  className="text-black  hover:text-black">Series</a></li></Link >
+                <Link to={'/community'}><li className="font-bold hover:border-b-4 border-red-600 pl-1 text-black"><a href="#"  className="text-black  hover:text-black">Community</a></li></Link >
               </ul>
             </div>
           </div>
