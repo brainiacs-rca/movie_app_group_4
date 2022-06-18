@@ -1,13 +1,10 @@
-import React from 'react';
-import Footer from './components/Footer';
+import Landpage from '../brainiacs/src/components/landpage'
+import Footer from './components/Footer'
 function App() {
   return (
     <div className="App">
-      <h1>Movie footer </h1>
-
-
-      
-      <Footer />
+<Landpage/>
+<Footer/>
     </div>
   );
 }
